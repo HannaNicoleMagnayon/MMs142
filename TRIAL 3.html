@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MMS 142 - DISRUPTIVE TECHNOLOGIES</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://media.npr.org/assets/img/2022/04/22/gettyimages-1314512617-edit_custom-95b2024a5d7c1566ca7aecb334472f243956543c-s1100-c50.jpg);
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">INTRO TO CRYPTO</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">CRYPTO CURRENCY TYPES</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">CRYPTO VS ECONOMY</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">MMS 142 - GROUP F</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">THE WORLD OF DIGITAL CURRENCY</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">INTRODUCTION TO CRYPTO</span></h5>
+    <p>Cryptocurrency, popularly referred to as crypto, is any form of currency that exists digitally or virtually and uses cryptography, a system that discreets all information through coding, to secure transactions. Instead of physical money, cryptocurrencies are digital payment systems, or most of the time “digital tokens,” that do not require verification from banks and are purely digital entries to an online database describing specific transactions. Because of its decentralized nature, transactions are carried out between peers, instead of conventional means like banks and/or state-owned institutions.
+</p>
+    <p>Though the idea of cryptocurrencies began way back in 1989 with its initial name of cyber currencies, cryptocurrency only truly took off in 2008 when a paper was published under the name Satoshi Nakamoto. Though this name was just a pseudonym of an anonymous individual or group, the paper they published held an outline of the technical details of a new electronic money system called Bitcoin that would utilize a decentralized network of computers to track and verify transactions, instead of relying on a central authority or third parties such as a government or financial institution (IndustryTrends, 2022).</p>
+    <p>With the slow but steady progression of Bitcoin’s success, many other companies have gone on to create their cryptocurrencies with varying features and characteristics to distinguish themselves from competitors. Some of the most well-known cryptocurrencies alongside Bitcoin are Ethereum, Litecoin, and Monero (IndustryTrends, 2022).</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+    <h1> How It Works </h1>
+      <p>Cryptocurrency received its name because it uses encryption for its transactions which entailed advanced coding in storing and transmitting cryptocurrency data between wallets and public ledgers. The end goal is to provide security and safety (Kaspersky, 2022).
+</p>
+      <p>The system works by its starting point: a new transaction. This transaction, which contains its recorded database, is represented as a block and is reviewed by authorized users through point-to-point network nodes. These nodes verifies the transaction before it is allowed to be confirmed as valid by the rest of the network. When the transaction is confirmed, this block is then combined and chained with other existing databases that are distributed to the same nodes known as the Blockchain, whose purpose is to collect and store this newly-inserted block’s information electronically in a digital format and secure its transparency (Hayes, 2022). From there, the transaction is now processing its completion. The network transaction fees depend on the type of the transaction and how sophisticated it is; it makes use of messaging services like email, XMPP/Jabber, and IRC to send any cryptocurrency, just like an email to send an SMS message you can get much cheaper than with letters.
+</p>
+    </div>
+    <img src="https://cdnblog.etmoney.com/wp-content/uploads/2022/03/How-Cryptocurrencies-Work.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><i>img from: Cryptic World Of Cryptocurrencies – Should You Take The Plunge?</i></p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">2 TYPES OF CRYPTOCURRENCIES</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Coins');" id="myLink">
+        <div class="w3-col s6 tablink">Coins</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Tokens');">
+        <div class="w3-col s6 tablink">Tokens</div>
+      </a>
+    </div>
+
+    <div id="Coins" class="w3-container menu w3-padding-48 w3-card">
+      <h5><strong>COINS</strong></h5>
+       <p class="w3-text-grey"> Crypto coins are coins that allows individuals to make payments using their digital currency. According to Hicks (2022), those are native to their blockchains and primarily function as payment cryptocurrencies with different valuations. Back then when Bitcoin was the original and almost only feasible kind of cryptocurrency, every other cryptocurrency besides it was considered an altcoin. Though presently, many of the cryptocurrencies aren’t meant to be competitors of Bitcoin but rather may have different purposes beyond merely functioning as a digital currency. 
+</p>
+
+<p class="w3-text-grey"> Further varieties of crypto coins are stablecoins and meme coins. A stablecoin is a cryptocurrency with a value pegged to another asset’s price and can provide as an alternative to cryptocurrencies with high volatility, or high statistical measure of dispersion that gains security risks, like Bitcoin (Hayes, 2022). The three types of stablecoins are fiat-collateralized (maintains a reserve of a fiat currency such as the U.S. dollar), crypto-collateralized (backed by other cryptocurrencies), and algorithmic (may or may not hold reserve assests). Alternatively, meme coins are what may be considered joke coins that gain popularity and traction through memes and social media, but are extremely risky to invest in. The most prominent example of a meme coin is the Dogecoin, the first meme coin originally conceived as a satire regarding the whereabouts of cryptocurrency (Frankenfield, 2022). 
+</p>
+    </div>
+
+    <div id="Tokens" class="w3-container menu w3-padding-48 w3-card">
+       <h5><strong>TOKENS</strong></h5>
+       <p class="w3-text-grey"> Crypto tokens, on the other hand, are a denomination of a cryptocurrency. Its blockchains already exist and can represent an asset or utility or provide the holder with a specific service or access to an application. As opposed to crypto coins, it does not require its blockchain and can coexist as a component of another network’s ecosystem.  
+</p>
+
+<p class="w3-text-grey"> Tokens also have a variety of types, such as value tokens, utility tokens, and security tokens. Value tokens are currently the most well-known kind with the emergence of NFTs, which are objects of value such as assets like art or music. Meanwhile, utility tokens are the ones that provide utility or service, designated for specific uses that give users the ability to perform actions on a blockchain network or a decentralized application. And lastly, security tokens are fungible and similar to stocks in that they reflect ownership of an asset or ownership of a financial security that is regulated by the Securities and Exchange Commission (SEC) (Hicks, 2022).
+ 
+</p>
+</div>
+
+<!-- Menu Container 2 -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE POSITIVES AND NEGATIVES OF CRYPTOCURRENCY</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Positives');" id="myLink">
+        <div class="w3-col s6 tablink">Positives</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Negatives');">
+        <div class="w3-col s6 tablink">Negatives</div>
+      </a>
+    </div>
+
+    <div id="Positives" class="w3-container menu w3-padding-48 w3-card">
+      <h5><strong>The Positives</strong></h5>
+        <h5>Blockchain Technology</h5>
+      <p class="w3-text-grey">A traditional financial transaction system is conducted in the form of a three-way stage. There is a connection between the sender and the receiver but with the management of a third-party like banks or authorities. Contrastively, Blockchain Technology opens up opportunities for individuals to generate huge sums of money with accountability to one’s transaction records. Furthermore, as blockchain technology becomes multi-faceted, it provides support in streamlining other processes such as car leasing, contract execution via cloud computing, and companies’ alternatives for employee wages. (Weston, 2022)</p><br>
+    
+      <h5>Crypto Jobs</h5>
+      <p class="w3-text-grey">As cryptocurrencies paved the way to a new and modern system, it’s also followed by the occurrence of new job specifications. Due to the popularity of cryptocurrency, there has been a high demand for crypto experts and professionals to help manage exchanges, connections, finance, etc. It also opened up specific attributes for applicants such as the need for blockchain and crypto skills. (Weston, 2022)
+<br>
+    
+      <h5>Financial Stability</h5>
+      <p class="w3-text-grey">As many companies face financial instability that could lead to bankruptcy, cryptocurrency can revolutionize the financial system in society. The application of decentralization in crypto aid people in times of difficult situations due to fluctuations by streamlining better access to financial services (Weston, 2022). It allows for a cross-border interaction between crypto-users providing a method for financial stability. </p><br>
+    
+      <h5>Transparency and Security</h5>
+      <p class="w3-text-grey">One of the notable advantages of cryptocurrency is its transparency. Cryptocurrency offers a distributed ledger that records transactions. Through this, it enables crypto-users to monitor ownership, status, and transfers to provide ease when it comes to data security. They are also able to manage and regulate their data which addresses the concern on digital issues such as money laundering and illegal use of assets (Weston, 2022). Crypto is also hard to forge and manipulate, making it difficult for others to copy them without having an edge over the original (such as malware).
+</p><br>
+    </div>
+
+    <div id="Negatives" class="w3-container menu w3-padding-48 w3-card">
+      <h5><strong>The Negatives</strong></h5>
+      <h5>Fuel for Illegal Activities</h5>
+      <p class="w3-text-grey">The feature of anonymity fuels malicious activities. Identifying the users of cryptocurrency transactions is virtually impossible. This way, illegal activities such as purchasing drugs, funding terrorists, laundering money, and exploiting the dark web can thrive as payments can be made anonymously.</p>
+
+<p class="w3-text-grey"> Since it’s decentralized, Cryptocurrencies are easily exchanged between any crypto addresses, regardless of whether they are owned by the same person or by totally different parties, locals or foreigners, acquaintances or strangers. As they are easily transferable, international trade is enabled, which translates to trafficking in the criminal setting (Sadon, 2021).
+</p><br>
+    
+      <h5>Cryptocurrency Tattoo</h5>
+      <p class="w3-text-grey">It’s irreversible–once a crypto transaction is initiated, it cannot be reversed or refunded. Blockchain and cryptocurrency are often described as 'unhackable' and 'secure'. However, this does not imply that all bitcoin exchanges are the same. The blockchain is a cryptocurrency transaction database and record. It is frequently referred to as 'unhackable' because hacking a blockchain is nearly impossible because the hacker must take control of at least 51% of the blockchain network's mining power, which confirms the authenticity of a transaction.</p>
+
+<p class="w3-text-grey"> Conversely, exchanges are different; leaving cryptocurrency on exchanges can be risky because of human error and cyber-attacks. Exchanges are vulnerable to the same security issues as any other website. Mismanagement, scams, and employee errors can all lead to system breaches and a loss of funds, leaving users with their wallets on the exchanges empty and unrecoverable (Elbaite, 2021). 
+</p>
+<br>
+    
+      <h5>Crypto Roller Coaster</h5>
+      <p class="w3-text-grey">The cryptocurrency market is quite volatile, so it is unpredictable. Volatility in cryptocurrency refers to the fluctuations in a coin's or token's trading price over time. It denotes the degree of uncertainty in the asset's value change—the greater the price range (or spread), the greater the volatility of the cryptocurrency. Since many governments do not currently accept cryptocurrency, the volatility also increases considerably.  It can be risky to invest in cryptocurrency without understanding its risk factors. 
+</p><br>
+    
+      <h5>Not legalized everywhere</h5>
+      <p class="w3-text-grey">As trading in cryptocurrencies increases and they become more widely understood, some regimes worldwide have become more hostile to crypto. Some crypto-friendly countries have begun embracing technology. Countries that ban cryptocurrencies have concerns that they are unregulated due to concerns about fraud, money laundering, and destabilization of fiat currencies.
+</p><br>
+    </div>
+
+    <img src="https://www.usnews.com/cmsmedia/db/ae/47d566714fd6b1143c313ba9a685/cryptocurrencycoinvariety.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- CRYPTO VS ECONOMY -->
+<div class="w3-container" id="where">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Crypto Vs. The Current Global Economy</span></h5>
+    <p>The global economy in the year 2022 has significantly declined due to high inflation, aggressive monetary tightening, the COVID-19 pandemic, and the war in Ukraine and Russia, according to the United Nations Department  Department of Economics and Social Affairs (2022). The United States, China, and European Union economies, the largest economies, are weakening, and this has led to a significant rise in energy and food prices which has triggered a global cost-of-living crisis, especially in developing countries in Asia and Africa. Furthermore,  Many developing countries are yet to recover from the pandemic but are now experiencing an economic decline from a significant increase in government borrowing costs and large capital outflows. However, there is projected slight growth in the global economy from 2.5 to 2.8% by the end of the year as the conflicts in Russia and Ukraine settle, and more economies begin to open and function completely amidst the pandemic. </p>
+<h6> <strong> How cryptocurrencies disrupt the global economic stability and development
+</strong></h6>
+<p>Analyzing the disruptive impact of cryptocurrency to global economics requires an analysis of what makes cryptocurrencies work. Cryptocurrencies use Blockchains to record every real-time occurring transaction made by individuals (Daley, 2022). Blockchains are transparent, in that they show every anonymous transaction made by every crypto holder, and in this state of affairs it is guaranteed to be monitored, though not by a centralized institution (Overgaag, 2022). This large decentralized ledger on its own is inherently secure, however most of the security measures fall on the responsibility of each individual user, the risks involved like hacking, scamming or validity issues do not affect the entirety of the network (EarlyBird, 2022).
+
+Exchanging crypto is a taxable event, which means the transactions made are still eligible for taxation depending on whether the crypto in question is treated as ordinary or as capital asset. In that respect, Crypto trade remains like that of normal domestic or foreign transactions (Edusma, 2022). If an unregulated breach happened in between the crypto market and the real-world trade, It poses a grave threat to both marketplaces leaving them vulnerable to attacks. Under fierce circumstances, Crypto also has the power to overtake central financial banks. Traditionally, transactions made from country to country are made through banks, and often these banks require identities and verifications from the two parties, then charge a convenience fee for their services. Cryptocurrencies, however, completely bypass banks with the transaction only having two parties involved: the sender and the receiver, along with a smaller service fee. This accessibility and usability are the main appealing qualities of crypto, with users only needing internet access to create an account for trading. Cryptocurrencies are protected as a unique asset secured using cryptography, the very same bitcoin can be used twice in transactions since their ownership can remain unchanged (Angel One, 2021). This is very similar to how digital technologies had changed the way communication works on a large scale. It provided much advantage, but it also permanently stapled itself within, changing the way people had lived forever. But assuming that the use of cryptocurrency remains fair comparative to that of ordinary trade and commerce, effectively the disruptive impact of cryptocurrency to the global economy does not lie with that of the markets, but with the industries it is involved with. Another quality that makes cryptocurrencies a disruptive innovation is their ability to resist inflation. This is possible because the supply of cryptocurrencies–specifically Bitcoin–is limited and controlled. Additionally, the price cannot be adjusted due to its decentralized nature.
+
+With the increasing popularity of cryptocurrencies, some countries have allowed the use of bitcoin within their borders; Germany, for example, has viewed them as a form of payment and not as assets. Some countries have gone further in their involvement in cryptocurrencies. El Salvador has made Bitcoin legal tender making it an official currency in the country. Venezuela and the Marshall Islands have even created their own cryptocurrencies. On the other hand, banks and other financial institutions are trying to regulate and control them, wary of their volatility and their use in illicit activities.
+
+Since the blockchain technology records real-time crypto transactions accounting for every individual users, It required enormous amounts of power to not only keep and maintain the servers running but to also keep up with all the transactions happening simultaneously. There are four ways cryptocurrency miners acquire their supply of power to last, it involves direct purchase of power plants, power purchase agreements, Electricity purchases from Local Utility, and by burning gas and oil fuels, the carbon footprints of which exceeds by 27.4 million tons of carbon dioxide (CO2) between mid-2021 and 2022 causing much concern for environmentalists worldwide (Earthjustice.org, 2022). Much debate is considered regarding the truth about Crypto’s energy consumption, regardless, they remain a competitive party when it comes to the current consumption of global energy, they are thus capable to disrupt many major industries relying on similar sources of energy if left unchecked.
+
+As it stands, the possibility of Cryptocurrency disrupting global economy cannot be ruled out. Crypto trade in general is a leap forward but it is also a leap out of convention. The volatile nature of crypto can negatively impact the current global economy in one way or another, if not directly through the world’s financial system, it is capable of affecting the environment that many industries rely upon for centuries on end. The current society may still be far off from becoming too ready for such a massive undertaking. The risk competes with the benefits involved in the present circumstances. </p>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
