@@ -16,7 +16,7 @@ body, html {
 .bgimg {
   background-position: center;
   background-size: cover;
-  background-image: url(https://media.npr.org/assets/img/2022/04/22/gettyimages-1314512617-edit_custom-95b2024a5d7c1566ca7aecb334472f243956543c-s1100-c50.jpg);
+  background-image: (http://drive.google.com/uc?export=view&id=1VabqHFr1nTixXk5ApSdVLYRSr1DfZ1VP);
   min-height: 75%;
 }
 
